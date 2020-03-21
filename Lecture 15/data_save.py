@@ -29,13 +29,9 @@ while True:
             faces = sorted(faces, key=lambda item: item[2] * item[3], reverse=True)
             face = faces[0]
             x, y, w, h = face
-
             cut = image[y:y+h, x:x+w]
-
             fix_cut = cv2.resize(cut, (100, 100))
-
             gray = cv2.cvtColor(fix_cut, cv2.COLOR_BGR2GRAY)
-
             cv2.imshow("my window", gray)
 
     key = cv2.waitKey(100)
