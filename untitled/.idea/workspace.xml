@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09d5229d-b175-420d-a095-1027f9fdaa85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lecture 17/decision tree.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Lecture 17/decision tree.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../New folder/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Untitled.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1a2pzuEzTenpB76ClO6g3GfJ90C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09d5229d-b175-420d-a095-1027f9fdaa85" name="Default Changelist" comment="" />
+      <created>1585943808864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585943808864</updated>
+      <workItem from="1585943811445" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1585943811831">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1585943811831" />
+  </component>
+</project>

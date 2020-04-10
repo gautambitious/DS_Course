@@ -1,0 +1,15 @@
+body{
+    color: red;
+}
+.center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.index{
+    max-width: 500px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}

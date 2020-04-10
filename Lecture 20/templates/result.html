@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+{% extends 'base.html' %}
+{% block head %}
     <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+    <title>{{url}}</title>
+{% endblock %}
+{% block body %}
+    <div class="mt4 shadow-3 pa4 center index">
+        {% if url=='Ham' %}
+        <img src="{{url_for('static',filename='Ham.jpg')}}">
+        {% else %}
+        <img src="{{url_for('static',filename='Spam.jpg')}}">
+        {% endif %}
+    </div>
+{% endblock %}
