@@ -227,5 +227,25 @@ function save(){
     var data = JSON.stringify(canvas_data);
     var image = canvas.toDataURL('image/png')
     // $.post("/", { save_fname: filename, save_cdata: data, save_image: image });
-    $.post("/", { img: image });
-} 
+    // $.post("/", { img: image });
+    $.ajax({
+   type: "POST",
+   contentType: "application/json; charset=utf-8",
+   url: "/",
+   data: JSON.stringify({img: image}),
+   success: function(response) {
+                // window.location.href = '/result';
+       console.log(response);
+       alert('The predicted number is:'+response.res);
+            },
+   dataType: "json"
+});
+//         .done(function(){
+//    // $('#message').html('test');
+//         alert('check')
+//    window.location.href = '/result';
+// }).fail(function(response){
+//    // $('#message').html(response['responseText']);
+//         window.location.href = '/result';
+// });
+}

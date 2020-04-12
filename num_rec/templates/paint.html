@@ -8,28 +8,6 @@
             <tr>
             <td>
                 <fieldset id="toolset">
-                <br>
-                <br>
-                <button id="penciltool" type="button" style="height: 25px; width: 100px;" onclick="pencil()">Pencil</button>
-                <br>
-                <br>
-                <br>
-                <button id="linetool" type="button" style="height: 25px; width: 100px;" onclick="line()">Line</button>
-                <br>
-                <br>
-                <br>
-                <button id="rectangletool" type="button" style="height: 25px; width: 100px;" onclick="rectangle()">Rectangle</button> 
-                <br>
-                <br>
-                <br>
-                <button id="circletool" type="button" style="height: 25px; width: 100px;" onclick="circle()">Circle</button> 
-                <br>
-                <br>
-                <br>
-                <button id="erasertool" type="button" style="height: 25px; width: 100px;" onclick="eraser()">Eraser</button> 
-                <br>
-                <br>
-                <br>
                 <button id="resettool" type="button" style="height: 25px; width: 100px;" onclick="reset()">Reset</button> 
                 </fieldset>
             </td>
@@ -41,4 +19,9 @@
         <fieldset id="colorset">
           <button id="save" onclick="save()">Save</button>
             </fieldset>
+        <script type="text/javascript">
+            pencil();
+        </script>
+        <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+        <script src=" {{ url_for('static', filename='script.js') }}"></script>
 {% endblock %}
